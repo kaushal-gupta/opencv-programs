@@ -4,7 +4,6 @@ img = cv2.imread('sanmarcos.jpg')
 height,width=img.shape[:2]
 print(height)
 print(width)
-
 quater_height,quater_width=height/4,width/4
 print(quater_height)
 print(quater_width)

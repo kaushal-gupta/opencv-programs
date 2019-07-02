@@ -1,6 +1,6 @@
 import cv2
 
-cap=cv2.VideoCapture(0 + cv2.CAP_DSHOW)
+cap=cv2.VideoCapture(0)
 
 while True:
     
@@ -12,3 +12,6 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
+
+
